@@ -1,0 +1,10 @@
+import numpy as np
+print("\tmatrix sorting")
+b=np.array([[1,5,6],[4,2,3]])
+c=np.array([[10,8,12],[11,7,9]])
+print("the given array is :",b,"\n",c)
+print("\n\tsorting two matrix (row-wise & column-wise)\n")
+e=np.sort(b,axis=0)
+print("column-wise sorting is",e)
+f=np.sort(c,axis=1)
+print("row-wise sorting is ",f)
